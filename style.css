@@ -1,0 +1,53 @@
+*{
+    font-family: 'Lato','sans-serif';
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://www.finetoshine.com/wp-content/uploads/2020/09/Quotes-1080p-Full-HD.jpg') ;
+     background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
+.heading{
+    margin: 0px 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+    width: 50%;
+    align-items: center;
+}
+.content{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 55%;
+    margin: 20px 10px;
+    padding: 10px;
+}
+#author{
+    margin: 20px 0px;
+    font-size: 25px;
+    color: brown;
+}
+span{
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Fasthand', cursive;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+button:hover{
+    color: yellow;
+}
